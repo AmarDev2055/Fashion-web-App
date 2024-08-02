@@ -1,0 +1,9 @@
+.promo{
+    margin: 4rem 15rem;
+}
+
+@media screen and (max-width:850px){
+    .promo{
+        margin: 1.4rem 2rem;
+    }
+}

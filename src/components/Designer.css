@@ -1,0 +1,94 @@
+.Designer{
+    margin: 4rem 4rem;
+    /* height: 100vh; */
+}
+
+#images{
+    display: flex;
+    align-items: center;
+    margin: 1rem 5rem;
+    justify-content: space-between;
+}
+
+
+#images p,h3{
+    color: #226637;
+}
+
+#image1 img{
+    width: 100%;
+}
+
+
+#image1{
+    width: 30%;
+}
+
+#image1 p{
+    text-align: end;
+    margin-left: 7rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+#image1 h3{
+    text-align: end;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-left: 7rem;
+}
+
+#image2{
+    width:50%;
+}
+
+#image2 img{
+    margin-top: 3vh;
+    width: 70%; 
+    object-fit:fill;
+}
+
+#image2 p {
+    text-align: start;
+    margin-left: 4rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+#image2 h3 {
+    text-align: start;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+#future{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    margin-top:90px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#future video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+button:hover + video {
+    display: block;
+  }
+
+#future #vtext{
+    position: relative;
+    z-index: 999;
+}

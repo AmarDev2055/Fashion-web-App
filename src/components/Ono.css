@@ -1,0 +1,129 @@
+.ono {
+    /* Additional styling */
+    height: 100vh;
+    background-image: url('https://imgs.search.brave.com/rn9WUpVCpXuoQXPyKZScLvLst-Z2ByXKNH1UOz7ZSaA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/dWxsLXNob3Qtd29t/YW4tcG9zaW5nLXdp/dGgtZGlmZmVyZW50/LWNsb3RoZXMtY29s/bGFnZV8yMy0yMTUw/NDA4NzM2LmpwZz9z/aXplPTYyNiZleHQ9/anBn');
+    background-size: fit ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #948bb7;
+  }
+
+  .ono h1 {
+    color: #333;
+    font-family: EB Garamond;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    top: 193px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+  }
+  
+  .animation  {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  
+  .message {
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 6s ease-in-out infinite;
+}
+  
+  .word1, .word2, .word3 {
+    font-family: EB Garamond;
+  }
+ 
+  .ono p{
+    font-size: 1.2rem;
+    width: 30%;
+    text-align: start;
+    margin: 14rem 2rem;
+  }
+
+  @keyframes openclose {
+    
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 280px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 280px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 250px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+
+  @media screen and (max-width:850px) {
+
+    .ono {
+      background-image:url('https://imgs.search.brave.com/rn9WUpVCpXuoQXPyKZScLvLst-Z2ByXKNH1UOz7ZSaA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/dWxsLXNob3Qtd29t/YW4tcG9zaW5nLXdp/dGgtZGlmZmVyZW50/LWNsb3RoZXMtY29s/bGFnZV8yMy0yMTUw/NDA4NzM2LmpwZz9z/aXplPTYyNiZleHQ9/anBn');
+    }
+    .ono p{
+      width: 50%;
+    }
+    
+  }

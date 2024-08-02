@@ -1,0 +1,142 @@
+.fashion{
+    margin: 4rem 6rem; 
+}
+
+
+.fashion h1{
+    font-size: 3rem;
+}
+
+.first-fash{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.5rem;
+}
+
+
+.first-fash-rev{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.5rem;
+}
+
+.fash-text-rev {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+
+.fassq h1{
+    top: 350px;
+    font-size: 4rem;
+    position: relative;
+    color: aliceblue;
+    /* background-color: rgb(53, 190, 214); */
+
+}
+
+.fash-text {
+    margin-right: -102px;
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.fash-text h2{
+    padding-bottom: 1rem;
+}
+
+.fash-img{
+    position: relative;
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.fash-img img{
+    width: 60%;
+    height: 460px;
+    margin-left: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 39px 37px 15px -17px rgba(0,0,0,0.1);
+}
+
+.fash-img img:nth-child(2){
+    position: absolute;
+    top:-10%;
+    left:67%;
+}
+
+
+@media screen and (max-width: 850px) {
+    .fashion{
+        margin: 4rem 2rem;
+    }
+
+    .first-fash{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+
+    .fash-text {
+        width: 100%;
+        text-align: start;
+        font-size: 1.1rem;
+    }
+    
+    .fash-img{
+        margin-top: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .fash-img img{
+        height: 200px;
+    }
+
+    .first-fash-rev{
+        display: flex;
+        flex-direction: column-reverse;
+        /* align-items: center; */
+        justify-content: space-between;
+        margin: 4.5rem;
+    }
+
+    .fassq h1{
+        top: 240px;
+        position: relative;
+    }
+
+    @media screen and (max-width:375px) {
+        .first-fash{
+            /* margin: .5rem 0rem; */
+            position: relative;
+            right: 60px;
+            width: 200px;
+        }
+
+        .fash-text p{
+            width: 250px;
+        }
+
+        .first-fash-rev{
+            position: relative;
+            right: 60px;
+            width: 200px;
+        }
+    }
+    @media screen and (max-width:550px) {
+        .fassq h1{
+            display:none
+        }
+    }
+}
+

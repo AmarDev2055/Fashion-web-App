@@ -1,0 +1,118 @@
+.clothing{
+    margin: 10rem 6rem;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    align-items: center;
+    gap: 30px;
+}
+
+ #message{
+    display: flex;
+    position: relative;
+    top: 7rem;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+#message h4{
+    font-size:4rem ;
+    width: auto;
+    text-align: start;
+    width: 30%;
+}
+#message p{
+    margin: 2rem 0;
+    text-align: end;
+    font-size:1.5rem ;
+    width: 70%;
+}
+
+#message span{
+    display: inline-block;
+    border-radius: 50px;
+    margin: 0 10px;
+    margin-bottom: -8px;
+}
+
+#onespan{
+    width: 80px;
+    height: 30px;
+    background-position: 0% 15%;
+    background-image: url('https://images.unsplash.com/photo-1520975661595-6453be3f7070?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd1Y2NpJTIwdHJlbmR8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+}
+
+#twospan{
+    width: 80px;
+    height: 30px;
+    background-image: url('https://images.unsplash.com/photo-1493655430214-3dd7718460bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGd1Y2NpJTIwdHJlbmR8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+}
+
+#threespan{
+    width: 80px;
+    height: 30px;
+    background-position: 0% 25%;
+    background-image: url('https://images.unsplash.com/photo-1645676525012-939439cfc560?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGd1Y2NpJTIwdHJlbmR8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+}
+
+#trend{
+    /* display: flex;
+    align-items: center; */
+    width: 100%;
+    margin: 0 2vw;
+    position: relative;
+    height: 80%;
+}
+
+
+#trend #paragraph{
+    text-align: start;
+}
+
+#paragraph p{
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+#paragraph h1{
+    color: #226637;
+
+}
+
+#trend2{
+    /* display: flex;
+    align-items: center; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 2vw;
+}
+
+#trend2 #heading{
+    line-height: .7;
+    position: absolute;
+    top: -90px;
+    left: -50px;
+    color: #226637;
+    font-weight: 200;
+    font-size:5rem ;
+}
+
+#trend3{
+    /* display: flex;
+    align-items: center; */
+    height: 80%;
+    width: 100%;
+    margin: 0 2vw;
+}
+
+
+#trend3 #paragraph{
+    text-align: end;
+}

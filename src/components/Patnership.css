@@ -1,0 +1,56 @@
+.marquee-container {
+    overflow: hidden;
+    margin:4rem 10rem;
+    height: 13rem;
+    background-color: aliceblue;
+  }
+
+.marquee-container h3{
+    margin: .5rem .5rem;
+    font-size: 2rem;
+    font-weight: 300;
+
+  }
+  
+  .marquee {
+    display: flex;
+    animation: marqueeAnimation 15s linear infinite;
+}
+  
+  .marquee-item {
+    width: 150px; 
+    margin-right: 10px;
+  }
+  
+@media screen and (max-width:850px) {
+    .marquee-container {
+        margin:1.5rem 5rem;
+        height: 20rem;
+        width: 500px;
+        background-color: aliceblue;
+      }
+
+      .marquee{
+        padding-top: 1rem;
+      }
+}
+
+
+@media screen and (max-width:420px){
+  .marquee-container {
+    margin:1.5rem 5rem;
+    height: 20rem;
+    width: 250px;
+  }
+}
+
+  @keyframes marqueeAnimation {
+    from {
+      transform: translateX(50%);
+      
+}
+    to {
+      transform: translateX(-100%); /* Move off-screen to the left */
+    }
+  }
+  

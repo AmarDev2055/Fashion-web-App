@@ -1,0 +1,106 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.aboutHero {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.aboutHero h1{
+   padding: 4rem !important;
+}
+
+.contactHero {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.onoHero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.onoHero h1{
+   padding: 4rem !important;
+}
+
+.contactHero h1{
+   padding: 4rem !important;
+}
+.contactHero h1{
+   padding: 4rem !important;
+}
+
+.serviceHero {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.serviceHero h1{
+   padding: 4rem !important;
+   color: #cf7853 !important;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 100%;
+}
+
+.hero-text h1{
+    color:#fff;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.hero-text p{
+    color:#fff;
+    font-size: 1.5rem;
+    /* font-weight: 800; */
+    padding: 0.5rem 0 2rem 0;
+}
+
+.hero-text .show{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 60px;
+    letter-spacing: 2px;
+    color:#cf7853;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 555px){
+    .hero-text h1 {
+       padding: 10px 20px;
+    }
+    
+    .hero-text p{
+        font-size: 1.1rem;
+    }
+
+    .hero-text .show{
+        
+        padding: 0.6rem 1rem;
+        border-radius: 60px;
+        letter-spacing: 2px;
+        color:#cf7853;
+        font-size: .6rem;
+    }
+}
